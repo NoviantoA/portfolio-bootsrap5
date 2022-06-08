@@ -1,0 +1,22 @@
+- jika boostrap sudah kepanggil maka tulisan yang semula adalah times new roman akan berubah menjadi fonts lain
+- tidak perlu memakai css untuk mengubah style pada h1(elemen), cukup memberi class pada h1(elemen yang mau dikasih style)
+- jika ingin teks ke tengah "text-center"
+- pada boostrap 5 text-right dan text-left diganti dengan text-start dan text-end
+- jika ingin mengganti warna text-nama warna, bisa contek dokumentasi di website boostrap (masuk pada bagian utilities - colors)
+- untuk mengubah suatu navbar menggnakan ms(margin start), untuk website ini menggunakan ms-auto untuk mengubah posisi
+  navbar ke sebelah kanan 
+- untuk mengubah background pada navbar menggunakan bg. karena pada website portfolio ingin menggunakan warna biru
+  maka diganti dengan bg-primary. bisa juga dengan menggunakan css yaitu dengan cara style="background-color: ;"
+- class navbar-light memberitahu kita kalau navbar kita menggunakan warna yang terang, kalau terang maka boostrap
+  otomatis akan membuat tulisannya gelap. kalau ingin gelap tinggal diganti dengan navbar-dark
+- untuk memberi bayangan bisa menggunakan shadow-type dari bootsrap. pada website ini menggunakan shadow-sm (shadow small)
+- membuat gambar menjadi lingkaran dengan cara membuat class baru dengan nama rounded-circle
+- pada website ini menggunakan ukuran width dan height tidak sama sehingga bentuknya tidak lingkaran
+- cara membuat border pada img dengan bantuan boostrap dengan cara img-thumbnail di dalam class rounded-circle
+- cara membuat gelombang pada jumbotron dengan mengunjungi web https://getwaves.io/ lalu disimpan pada section jumbotron
+- cara buat layout di boostrap harus buat dulu div yang nama kelasnya container lalu didalmanya buat grid (caranya bikin row, didalam row buat coloum)
+- jika ingi colom stu lebih besar dari kolom lain dengan memberi angka (maksimal jumlah kolom dalam satu baris itu tidakboleh lebih dari 12)
+- untuk merubah margin/ padding menggunakan boostrap bisa pada menu utilities - spacing
+- pada bagian my project menggunakan boostrap component - card
+- breakpoint digunakan untuk ngasih tau tiap-tiap titik dimana desain responsivenya berubah di boostrap (md)disimpan di tengah kolom
+- rekomendasi cari gambar yang keren dari pak sandika galih https://unsplash.com/
